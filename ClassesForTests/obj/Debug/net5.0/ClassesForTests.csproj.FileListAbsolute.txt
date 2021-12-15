@@ -1,5 +1,0 @@
-C:\Users\anton\Documents\study\OOP\lab5\ClassesForTests\obj\Debug\net5.0\ClassesForTests.csproj.AssemblyReference.cache
-C:\Users\anton\Documents\study\OOP\lab5\ClassesForTests\obj\Debug\net5.0\ClassesForTests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\anton\Documents\study\OOP\lab5\ClassesForTests\obj\Debug\net5.0\ClassesForTests.AssemblyInfoInputs.cache
-C:\Users\anton\Documents\study\OOP\lab5\ClassesForTests\obj\Debug\net5.0\ClassesForTests.AssemblyInfo.cs
-C:\Users\anton\Documents\study\OOP\lab5\ClassesForTests\obj\Debug\net5.0\ClassesForTests.csproj.CoreCompileInputs.cache
