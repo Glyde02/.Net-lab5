@@ -17,10 +17,15 @@ namespace Tests
             dependencies = new Configuration();
             dependencies.AddSingleton<IService, ServiceImpl1>();
             dependencies.AddTransient<Class1, Class1>();
+
+
             dependencies.AddTransient<IService, ServiceImpl2>();
+
             dependencies.AddTransient<IGenericService<int>, GenericServiceImpl<int>>();
             dependencies.AddTransient(typeof(IGenericService<>), typeof(GenericServiceImpl<>));
             dependencies.AddTransient<AbstractService, AbstractServiceImpl>();
+
+
             provider = new DependencyProvider(dependencies);
         }
 
@@ -43,6 +48,20 @@ namespace Tests
         }
 
         [Fact]
+        public void CreatingSingleton_MockedConfig_ShouldBeOneImplementation()
+        {
+            const int testCount = 100;
+            Assert.Single(Enumerable.Range(1, testCount).Select(_ => provider.Resolve<IService>()).Distinct());
+        }
+
+        [Fact]
+        public void CreatingTransient_MockedConfig_ShouldBeDifferentImplementations()
+        {
+            const int testCount = 100;
+            Assert.Equal(testCount, Enumerable.Range(1, testCount).Select(_ => provider.Resolve<AbstractService>()).Distinct().Count());
+        }
+
+        [Fact]
         public void ResolvingDependenciesForAClass_MockedConfig_CorrectlyResolved()
         {
             var containerizedClass = provider.Resolve<ClassWithDependencies>();
@@ -56,19 +75,7 @@ namespace Tests
             Assert.Throws<Exception>(() => dependencies.AddSingleton<Class1, Class1>());
         }
 
-        [Fact]
-        public void CreatingSingleton_MockedConfig_ShouldBeOneImplementation()
-        {
-            const int testCount = 100;
-            Assert.Single(Enumerable.Range(1, testCount).Select(_ => provider.Resolve<IService>()).Distinct());
-        }
 
-        [Fact]
-        public void CreatingTransient_MockedConfig_ShouldBeDifferentImplementations()
-        {
-            const int testCount = 100;
-            Assert.Equal(testCount, Enumerable.Range(1, testCount).Select(_ => provider.Resolve<AbstractService>()).Distinct().Count());
-        }
     }
 
 }
