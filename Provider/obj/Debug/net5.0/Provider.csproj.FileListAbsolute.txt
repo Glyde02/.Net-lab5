@@ -1,0 +1,12 @@
+C:\Users\anton\Documents\study\OOP\lab5\Provider\bin\Debug\net5.0\Provider.deps.json
+C:\Users\anton\Documents\study\OOP\lab5\Provider\bin\Debug\net5.0\Provider.dll
+C:\Users\anton\Documents\study\OOP\lab5\Provider\bin\Debug\net5.0\ref\Provider.dll
+C:\Users\anton\Documents\study\OOP\lab5\Provider\bin\Debug\net5.0\Provider.pdb
+C:\Users\anton\Documents\study\OOP\lab5\Provider\obj\Debug\net5.0\Provider.csproj.AssemblyReference.cache
+C:\Users\anton\Documents\study\OOP\lab5\Provider\obj\Debug\net5.0\Provider.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\Documents\study\OOP\lab5\Provider\obj\Debug\net5.0\Provider.AssemblyInfoInputs.cache
+C:\Users\anton\Documents\study\OOP\lab5\Provider\obj\Debug\net5.0\Provider.AssemblyInfo.cs
+C:\Users\anton\Documents\study\OOP\lab5\Provider\obj\Debug\net5.0\Provider.csproj.CoreCompileInputs.cache
+C:\Users\anton\Documents\study\OOP\lab5\Provider\obj\Debug\net5.0\Provider.dll
+C:\Users\anton\Documents\study\OOP\lab5\Provider\obj\Debug\net5.0\ref\Provider.dll
+C:\Users\anton\Documents\study\OOP\lab5\Provider\obj\Debug\net5.0\Provider.pdb

@@ -1,0 +1,11 @@
+C:\Users\anton\Documents\study\OOP\lab5\ClassesForTest\bin\Debug\net5.0\ClassesForTest.deps.json
+C:\Users\anton\Documents\study\OOP\lab5\ClassesForTest\bin\Debug\net5.0\ClassesForTest.dll
+C:\Users\anton\Documents\study\OOP\lab5\ClassesForTest\bin\Debug\net5.0\ref\ClassesForTest.dll
+C:\Users\anton\Documents\study\OOP\lab5\ClassesForTest\bin\Debug\net5.0\ClassesForTest.pdb
+C:\Users\anton\Documents\study\OOP\lab5\ClassesForTest\obj\Debug\net5.0\ClassesForTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\Documents\study\OOP\lab5\ClassesForTest\obj\Debug\net5.0\ClassesForTest.AssemblyInfoInputs.cache
+C:\Users\anton\Documents\study\OOP\lab5\ClassesForTest\obj\Debug\net5.0\ClassesForTest.AssemblyInfo.cs
+C:\Users\anton\Documents\study\OOP\lab5\ClassesForTest\obj\Debug\net5.0\ClassesForTest.csproj.CoreCompileInputs.cache
+C:\Users\anton\Documents\study\OOP\lab5\ClassesForTest\obj\Debug\net5.0\ClassesForTest.dll
+C:\Users\anton\Documents\study\OOP\lab5\ClassesForTest\obj\Debug\net5.0\ref\ClassesForTest.dll
+C:\Users\anton\Documents\study\OOP\lab5\ClassesForTest\obj\Debug\net5.0\ClassesForTest.pdb

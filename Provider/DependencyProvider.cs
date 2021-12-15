@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace lab5
 {
-    public class dependencyProvider
+    public class DependencyProvider
     {
         private readonly Configuration config;
 
-        public dependencyProvider(Configuration config)
+        public DependencyProvider(Configuration config)
         {
             this.config = config;
             config.IsUsed = true;
